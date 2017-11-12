@@ -268,7 +268,7 @@ if __name__ == '__main__':
     result = insert_sort(LIST)
     result_shell = shell_sort(LIST)
     result_bubble = bubble_sort(LIST)
-    result_quick = quick_sort(LIST,4,1)
+    result_quick = quick_sort(LIST,0,len(LIST)-1)
     result_select = select_sort(LIST)
     result_heap = heap_sort(LIST)
     result_merge = merge_sort(LIST)
